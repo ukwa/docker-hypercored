@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+
+  hypercored:
+    build: .
+    volumes:
+     - ./feeds-to-host:/feeds-to-host
+    ports:
+     - 3287:3282
+     - 8887:8887
