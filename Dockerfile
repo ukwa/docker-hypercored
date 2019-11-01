@@ -1,6 +1,6 @@
 FROM node
 
-RUN npm install -g hypercored dat date-store
+RUN npm install -g hypercored dat dat-store
 
 EXPOSE 3282
 EXPOSE 8887
