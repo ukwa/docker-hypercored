@@ -3,7 +3,7 @@ version: "2"
 services:
 
   hypercored:
-    build: .
+    image: ukwa/docker-hypercored
     volumes:
      - ./feeds-to-host:/feeds-to-host
     ports:
